@@ -1,0 +1,211 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Roboto', sans-serif;
+}
+
+a {
+	color: white;
+	text-decoration: none;
+}
+
+li {
+	list-style-type: none;
+	display: inline-block;
+}
+
+.box {
+	max-width: 90%;
+	margin: auto;
+}
+
+.button {
+	color: white;
+	border: 0;
+	padding: 15px 40px;
+	font-weight: bold;
+	cursor: pointer;
+	transition: all .2s ease;
+}
+
+.header {
+	background-image: url('../img/header.jpg');
+	height: 100vh;
+	width: 100%;
+	background-position: center;
+	background-size: cover;
+
+	padding: 50px 100px 100px 100px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.header .box {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	height: 100%;
+}
+
+.header nav {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	color: white;
+}
+
+.nav-items li {
+	margin-left: 20px;
+	font-weight: 300;
+	font-size: 18px;
+}
+
+.header nav .nav-items li a:hover {
+	text-decoration: underline;
+}
+
+.header .caption {
+	color: white;
+	font-size: 30px;
+}
+
+.header .caption h3:first-child {
+	margin-bottom: 40px;
+}
+
+main {
+	max-width: 960px;
+	margin: auto;
+	margin-bottom: 40px;
+}
+
+main h4, main h5 {
+	font-size: 25px;
+	font-weight: 300;
+	text-align: center;
+	margin: 40px 0;
+}
+
+main .benefits,
+main .products > div {
+	display: grid;
+	margin-top: 40px;
+	grid-template-columns: repeat(3, 1fr);
+	grid-column-gap: 15px;
+}
+
+main .benefits .benefits-item img {
+	display: block;
+	margin: auto;
+}
+
+main .benefits .benefits-item h5 {
+	font-weight: bold;
+	margin: 40px 0;
+}
+
+main .benefits .benefits-item .benefits-caption {
+	text-align: center;
+	line-height: 30px;
+	font-size: 14px;
+}
+
+main .products .products-item {
+	border: 1px solid #b4b4b4;
+	background-color: #f5f5f5;
+}
+
+main .products .products-item img {
+	width: 100%;
+}
+
+main .products .products-item .products-details {
+	padding: 30px 10px 10px;
+}
+
+main .products .products-item .products-details h5 {
+	text-align: start;
+	margin: 0;
+	margin-bottom: 15px;
+}
+
+main .products .products-item .products-details .products-caption,
+main .products .products-item .products-details .products-price {
+	line-height: 30px;
+	font-size: 14px;
+}
+
+main .products .products-item .products-details .products-price {
+	color: #71ae22;
+	font-weight: bold;
+}
+
+main .products .products-item .products-details .products-services {
+	margin: 20px 0;
+	display: flex;
+	justify-content: space-around;
+	padding: 0 20px;
+}
+
+main .products .products-item .products-details .products-services li {
+	display: flex;
+	align-items: center;
+}
+
+main .products .products-item .products-details .products-services span {
+	margin-left: 10px;
+}
+
+main .products .products-item .products-details .products-button-view {
+	background: #de8716;
+	width: 100%;
+}
+
+main .products .products-item .products-details .products-button-view:hover {
+	background: #ea9e3b;
+}
+
+main .products .products-button-all {
+	background: #71ae22;
+	margin-left: auto;
+	display: block;
+	margin-top: 20px;
+}
+
+footer {
+	background-color: #333333;
+}
+
+footer .footer-bottom {
+	padding: 30px 100px;
+	display: flex;
+	justify-content: space-between;
+	color: white;
+}
+
+footer .footer-contact {
+	background-image: url('../img/encuentra.jpg');
+	background-position: center;
+	background-size: cover;
+
+	color: white;
+	padding: 100px 200px;
+}
+
+.footer-contact h3 {
+	font-size: 30px;
+}
+
+.footer-contact p {
+	margin: 35px 0;
+}
+
+.footer-contact .footer-contact-button {
+	background: #de8716;;
+}
+
+.footer-contact .footer-contact-button:hover {
+	background: #ea9e3b;
+}
